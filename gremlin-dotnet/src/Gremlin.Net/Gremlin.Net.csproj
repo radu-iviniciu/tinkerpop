@@ -22,13 +22,15 @@ limitations under the License.
     <TargetFrameworks>netstandard1.3;netstandard2.0</TargetFrameworks>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageVersion>3.4.11</PackageVersion>
+    <AssemblyName>Connatix.Gremlin.Net</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Label="Package">
     <Version>3.4.11-SNAPSHOT</Version>
     <FileVersion>3.4.11.0</FileVersion>
     <AssemblyVersion>3.4.0.0</AssemblyVersion>
-    <Title>Gremlin.Net</Title>
+    <Title>Connatix.Gremlin.Net</Title>
     <Authors>Apache TinkerPop</Authors>
     <Description>Gremlin.Net for Apache TinkerPop™ is a language variant and driver for .NET.
 
@@ -59,7 +61,7 @@ Given the strong correspondence between canonical Gremlin in Java and its varian
 NOTE that versions suffixed with "-rc" are considered release candidates (i.e. pre-alpha, alpha, beta, etc.) and thus for early testing purposes only.</Description>
     <AssemblyOriginatorKeyFile>../../build/tinkerpop.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
-    <PackageId>Gremlin.Net</PackageId>
+    <PackageId>Connatix.Gremlin.Net</PackageId>
     <PackageTags>gremlin;tinkerpop;apache</PackageTags>
     <PackageProjectUrl>https://tinkerpop.apache.org</PackageProjectUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
@@ -71,7 +73,7 @@ NOTE that versions suffixed with "-rc" are considered release candidates (i.e. p
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="Microsoft.CSharp" Version="4.3.0" />
     <PackageReference Include="Polly" Version="7.2.0" />
